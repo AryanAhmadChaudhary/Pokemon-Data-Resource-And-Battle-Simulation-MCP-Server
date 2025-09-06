@@ -1,4 +1,4 @@
-# Pokemon-MCP-Tool
+# Pokemon Data Resource & Battle Simulation MCP Server
 
 This project implements an MCP (Model Context Protocol) server providing AI models access to Pokémon data and a battle simulation tool. It allows Large Language Models (LLMs) to query comprehensive Pokémon information and simulate turn-based battles with core mechanics like type effectiveness and status effects. The server is designed to be integrated easily with the Claude desktop app.
 
@@ -6,8 +6,8 @@ This project implements an MCP (Model Context Protocol) server providing AI mode
 
 ## Features
 
-### Pokémon Data Resource
-- Access detailed Pokémon data including:
+### Pokemon Data Resource
+- Access detailed Pokemon data including:
   - Base stats (HP, Attack, Defense, Special Attack, Special Defense, Speed)
   - Types (Fire, Water, Grass, etc.)
   - Abilities with effects
@@ -16,14 +16,14 @@ This project implements an MCP (Model Context Protocol) server providing AI mode
 - Provides an MCP resource interface to expose this data to LLMs.
 
 ### Battle Simulation Tool
-- Simulate battles between any two Pokémon by name.
-- Implements core Pokémon battle mechanics including:
+- Simulate battles between any two Pokemon by name.
+- Implements core Pokemon battle mechanics including:
   - Type effectiveness calculations
   - Damage calculations using stats and move power
   - Turn order based on Speed stats
   - Status effects: Paralysis, Burn, Poison
 - Provides detailed battle logs describing each action and outcome.
-- Determines a winner based on which Pokémon faints first.
+- Determines a winner based on which Pokemon faints first.
 - Exposed as an MCP tool interface for use by LLMs.
 
 ---
@@ -72,16 +72,16 @@ Confirm the MCP inspector opens successfully and you can interact with your tool
 ```bash 
 uv run mcp dev server.py
 ```
-6. Once installed, you can run and interact with the Pokémon data and battle simulation tools directly inside Claude's interface.
+6. Once installed, you can run and interact with the Pokemon data and battle simulation tools directly inside Claude's interface.
 
 ---
 
 ## Usage Examples
 
-### Query Pokémon Info
-Ask the MCP server for detailed information about a Pokémon by name, including stats, types, abilities, and evolution.
+### Query Pokemon Info
+Ask the MCP server for detailed information about a Pokemon by name, including stats, types, abilities, and evolution.
 
 ### Simulate Battle
-Request a battle simulation between two Pokémon. The server will return a detailed battle log and the winner.
+Request a battle simulation between two Pokemon. The server will return a detailed battle log and the winner.
 
 ---
