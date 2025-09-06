@@ -74,9 +74,9 @@ uv run mcp dev server.py
 ```
 Confirm the MCP inspector opens successfully and you can interact with your tools.
 
-6. Verify MCP configuration and run the dev server to connect with claude:
+6. Verify MCP configuration and run the following command to connect with claude:
 ```bash 
-uv run mcp dev server.py
+uv run mcp install server.py
 ```
 7. Once installed, you can run and interact with the Pokemon data and battle simulation tools directly inside Claude's interface.
 
