@@ -52,9 +52,9 @@ This project implements an MCP (Model Context Protocol) server providing AI mode
 git clone https://github.com/AryanAhmadChaudhary/Pokemon-MCP-Tool.git
 ```
 
-2. Change to the project root directory:
+2. Change to the project root directory (if not already in the root):
 ```bash
-cd Pokemon-MCP-Tool
+cd Pokemon-Data-Resource-And-Battle-Simulation-MCP-Server
 ```
 
 3. Create and activate a Python virtual environment
@@ -85,9 +85,12 @@ uv run mcp install server.py
 ## Usage Examples
 
 ### Query Pokemon Info
-Ask the MCP server for detailed information about a Pokemon by name, including stats, types, abilities, and evolution.
+Ask the Claude app for detailed information about a Pokemon by name, including stats, types, abilities, and evolution.
+For ex:
+<img src="img/pokemon_info.png">
 
 ### Simulate Battle
 Request a battle simulation between two Pokemon. The server will return a detailed battle log and the winner.
-
+For ex:
+<img src="img/simulate_battle.png">
 ---
