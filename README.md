@@ -86,11 +86,15 @@ uv run mcp install server.py
 
 ### Query Pokemon Info
 Ask the Claude app for detailed information about a Pokemon by name, including stats, types, abilities, and evolution.
+
 For ex:
+
 <img src="img/pokemon_info.png">
 
 ### Simulate Battle
 Request a battle simulation between two Pokemon. The server will return a detailed battle log and the winner.
+
 For ex:
+
 <img src="img/simulate_battle.png">
 ---
