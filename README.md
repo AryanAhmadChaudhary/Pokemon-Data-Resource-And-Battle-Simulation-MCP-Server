@@ -57,21 +57,28 @@ git clone https://github.com/AryanAhmadChaudhary/Pokemon-MCP-Tool.git
 cd Pokemon-MCP-Tool
 ```
 
-3. Install dependencies:
+3. Create and activate a Python virtual environment
+```bash
+python3 -m venv venv 
+source venv/bin/activate
+```
+
+4. Install dependencies:
 ```bsh
 pip install -r requirements.txt
 ```
-4. Run the MCP server (this will start the MCP inspector UI):
+
+5. Run the MCP server (this will start the MCP inspector UI):
 ```bash
 uv run mcp dev server.py
 ```
 Confirm the MCP inspector opens successfully and you can interact with your tools.
 
-5. Verify MCP configuration and run the dev server to connect with claude:
+6. Verify MCP configuration and run the dev server to connect with claude:
 ```bash 
 uv run mcp dev server.py
 ```
-6. Once installed, you can run and interact with the Pokemon data and battle simulation tools directly inside Claude's interface.
+7. Once installed, you can run and interact with the Pokemon data and battle simulation tools directly inside Claude's interface.
 
 ---
 
