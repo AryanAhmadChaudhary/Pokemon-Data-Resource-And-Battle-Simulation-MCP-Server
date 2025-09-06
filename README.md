@@ -1,6 +1,6 @@
 # Pokemon Data Resource & Battle Simulation MCP Server
 
-This project implements an MCP (Model Context Protocol) server providing AI models access to Pokémon data and a battle simulation tool. It allows Large Language Models (LLMs) to query comprehensive Pokémon information and simulate turn-based battles with core mechanics like type effectiveness and status effects. The server is designed to be integrated easily with the Claude desktop app.
+This project implements an MCP (Model Context Protocol) server providing AI models access to Pokemon data and a battle simulation tool. It allows Large Language Models (LLMs) to query comprehensive Pokémon information and simulate turn-based battles with core mechanics like type effectiveness and status effects. The server is designed to be integrated easily with the Claude desktop app.
 
 ---
 
